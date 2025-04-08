@@ -1,0 +1,21 @@
+/* Container styles */
+.container {
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Float the image to the left */
+.float-left {
+    float: left; /* Floats the image to the left */
+    width: 150px; /* Fixed width for the image */
+    margin: 10px 15px 10px 5px; /* Margin on all sides, except left */
+}
+
+/* Clearfix to handle float */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
